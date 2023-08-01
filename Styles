@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#votingOptions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nominee-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+}
+
+.nominee-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.nominee-container p {
+  margin-bottom: 5px;
+}
+
+#voteCount {
+  margin-bottom: 20px;
+}
+
+#adBanner {
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #666;
+}
+
+#voteStatus {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Additional styling for the Vote button */
+.nominee-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nominee-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
